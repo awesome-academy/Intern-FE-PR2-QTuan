@@ -4,7 +4,7 @@ import {
   getOrderListCase,
   reviewOrderCase,
 } from "../constants";
-import orderApi from "../../../API/orderApi";
+import orderApi from "../../API/orderApi";
 
 function* addToOrderSaga(action) {
   const params = action.payload;

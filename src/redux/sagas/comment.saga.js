@@ -1,6 +1,6 @@
 import { put, takeEvery } from "redux-saga/effects";
 import { getCommentCase, addToCommentCase } from "../constants";
-import commentApi from "../../../API/commentApi";
+import commentApi from "../../API/commentApi";
 
 function* getCommentSaga(action) {
   const params = action.payload;

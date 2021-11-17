@@ -1,9 +1,9 @@
 import { put, takeEvery } from "redux-saga/effects";
 import { loginCase, registerCase, updateUserCase } from "../constants";
-import authApi from "../../../API/authApi";
+import authApi from "../../API/authApi";
 import { notification } from "antd";
-import history from "../../../utils/history";
-import PATH from "../../../constants/path";
+import history from "../../utils/history";
+import PATH from "../../constants/path";
 
 function* registerSaga(action) {
   const params = action.payload;

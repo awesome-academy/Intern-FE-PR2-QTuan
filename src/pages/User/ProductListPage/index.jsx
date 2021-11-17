@@ -2,7 +2,7 @@ import { Col, Pagination, Rate, Row, Spin } from "antd";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import ProductItem from "../../../components/User/ProductItem";
-import { getProductListAction } from "../../../redux/User/actions";
+import { getProductListAction } from "../../../redux/actions";
 import { filterPrices } from "../../../utils/helper";
 import "./styles.scss";
 

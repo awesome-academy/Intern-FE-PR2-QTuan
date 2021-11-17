@@ -1,7 +1,7 @@
 import { ShoppingCartOutlined } from "@ant-design/icons";
 import { Button, notification } from "antd";
 import { useDispatch } from "react-redux";
-import { addToCartAction } from "../../../redux/User/actions";
+import { addToCartAction } from "../../../redux/actions";
 import history from "../../../utils/history";
 function BtnAddToCart(props) {
   const dispatch = useDispatch();

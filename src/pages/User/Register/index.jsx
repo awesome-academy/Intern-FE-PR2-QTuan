@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { REGEX } from "../../../constants/validate";
 import TitlePage from "../../../components/User/TitlePage";
 import { useDispatch } from "react-redux";
-import { registerAction } from "../../../redux/User/actions";
+import { registerAction } from "../../../redux/actions";
 import "./styles.scss";
 
 function RegisterPage() {

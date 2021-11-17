@@ -1,6 +1,6 @@
 import { put, takeEvery } from "redux-saga/effects";
 import { categoryCase } from "../constants";
-import categoryApi from "../../../API/categoryApi";
+import categoryApi from "../../API/categoryApi";
 
 function* getCategoryListSaga(action) {
   const params = action.payload;

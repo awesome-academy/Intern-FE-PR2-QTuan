@@ -1,6 +1,6 @@
 import { put, takeEvery } from "redux-saga/effects";
 import { editUserCase, getUserCase } from "../constants";
-import userApi from "../../../API/userApi";
+import userApi from "../../API/userApi";
 
 function* getUserListSaga(action) {
   const params = action.payload;

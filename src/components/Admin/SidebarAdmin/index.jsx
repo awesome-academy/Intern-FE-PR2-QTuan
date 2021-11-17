@@ -2,11 +2,9 @@ import PATH from "../../../constants/path";
 import history from "../../../utils/history";
 import { Layout, Menu, Row } from "antd";
 import logo from "../../../assets/logo/logo.png";
-import { logoutAction } from "../../../redux/User/actions";
 
 import {
   ShoppingCartOutlined,
-  UserOutlined,
   ShopOutlined,
   HomeOutlined,
   LogoutOutlined,

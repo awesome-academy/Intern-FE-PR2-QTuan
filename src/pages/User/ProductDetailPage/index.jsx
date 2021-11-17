@@ -1,4 +1,4 @@
-import { useEffect, useState, notification } from "react";
+import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
   Row,
@@ -17,7 +17,7 @@ import { HeartOutlined } from "@ant-design/icons";
 import {
   getProductItem,
   getProductListAction,
-} from "../../../redux/User/actions/product.action";
+} from "../../../redux/actions";
 import TitlePage from "../../../components/User/TitlePage";
 import ProductItem from "../../../components/User/ProductItem";
 import BtnAddToCart from "../../../components/User/BtnAddToCart";
@@ -26,7 +26,7 @@ import "./styles.scss";
 import {
   addToCommentAction,
   getCommentAction,
-} from "../../../redux/User/actions";
+} from "../../../redux/actions";
 import history from "../../../utils/history";
 
 function ProductDetailPage({ match }) {

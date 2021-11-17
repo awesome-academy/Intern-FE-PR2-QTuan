@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   getCartListAction,
   getProductListAction,
-} from "../../../redux/User/actions";
+} from "../../../redux/actions";
 import BannerSilder from "../../../components/User/BannerSlider";
 import ProductItem from "../../../components/User/ProductItem";
 import cabinet from "../../../assets/images/cabinet.jpg";

@@ -3,7 +3,7 @@ import history from "../../../utils/history";
 import { Row, Button } from "antd";
 import "./styles.scss";
 import { useEffect } from "react";
-import { getCartListAction } from "../../../redux/User/actions";
+import { getCartListAction } from "../../../redux/actions";
 import { useDispatch } from "react-redux";
 
 function ThanksPage() {

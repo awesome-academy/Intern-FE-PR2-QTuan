@@ -1,7 +1,7 @@
 import { Carousel, Spin } from "antd";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getBannerListAction } from "../../../redux/User/actions";
+import { getBannerListAction } from "../../../redux/actions";
 import "./styles.scss";
 
 function BannerSilder() {
@@ -30,7 +30,7 @@ function BannerSilder() {
       });
     }
 
-    return <Spin/>
+    return <Spin />;
   }
 
   return (

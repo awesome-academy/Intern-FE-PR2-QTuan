@@ -1,6 +1,6 @@
 import { put, takeEvery } from "redux-saga/effects";
 import { bannerCase } from "../constants";
-import bannerApi from "../../../API/bannerApi";
+import bannerApi from "../../API/bannerApi";
 
 function* getBannerListSaga(action) {
   const params = action.payload;

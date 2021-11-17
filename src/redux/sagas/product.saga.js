@@ -6,7 +6,7 @@ import {
   editItemCase,
   addProductCase,
 } from "../constants";
-import productApi from "../../../API/productApi";
+import productApi from "../../API/productApi";
 
 function* getProductListSaga(action) {
   const params = action.payload;

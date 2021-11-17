@@ -9,7 +9,7 @@ import {
   getCartListAction,
   increaseCartItemAction,
   removeFromCartAction,
-} from "../../../redux/User/actions";
+} from "../../../redux/actions";
 import { useEffect } from "react";
 
 function ProductCartPage() {

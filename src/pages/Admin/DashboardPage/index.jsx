@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { Doughnut, Line } from "react-chartjs-2";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import { getOrderListAction } from "../../../redux/User/actions/order.action";
+import { getOrderListAction } from "../../../redux/actions";
 import "./styles.scss";
 
 function DashboardPage() {

@@ -14,7 +14,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   getOrderListAction,
   reviewOrderAction,
-} from "../../../redux/User/actions/order.action";
+} from "../../../redux/actions";
 import { formatAddress } from "../../../utils/helper";
 import "./styles.scss";
 

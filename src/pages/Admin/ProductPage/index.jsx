@@ -25,7 +25,7 @@ import {
   getCategoryListAction,
   getProductListAction,
   setProductSelectAction,
-} from "../../../redux/User/actions";
+} from "../../../redux/actions";
 
 function ProductPage() {
   const dispatch = useDispatch();

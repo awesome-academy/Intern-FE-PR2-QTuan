@@ -12,7 +12,7 @@ import { EditOutlined, UserDeleteOutlined } from "@ant-design/icons";
 import "./styles.scss";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useState } from "react";
-import { editUserAction, getUserListAction } from "../../../redux/User/actions";
+import { editUserAction, getUserListAction } from "../../../redux/actions";
 
 function UserPage() {
   const dispatch = useDispatch();

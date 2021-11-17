@@ -15,7 +15,7 @@ import {
   getCartListAction,
   getCategoryListAction,
   logoutAction,
-} from "../../../redux/User/actions";
+} from "../../../redux/actions";
 import "./styles.scss";
 
 function Header() {
